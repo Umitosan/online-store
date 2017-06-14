@@ -3,7 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent }   from './about/about.component';
 import { MarketplaceComponent }   from './marketplace/marketplace.component';
-import { TestCompComponent }   from './test-comp/test-comp.component';
 import { AlbumDetailComponent }   from './album-detail/album-detail.component';
 
 const appRoutes: Routes = [
@@ -18,10 +17,6 @@ const appRoutes: Routes = [
   {
     path: 'marketplace',
     component: MarketplaceComponent
-  },
-  {
-    path: 'testComp',
-    component: TestCompComponent
   },
   {
     path: 'albums/:id',
